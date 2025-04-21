@@ -10,15 +10,15 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/calmw/bee-tron/pkg/api"
+	"github.com/calmw/bee-tron/pkg/bigint"
+	"github.com/calmw/bee-tron/pkg/jsonhttp"
+	"github.com/calmw/bee-tron/pkg/jsonhttp/jsonhttptest"
+	erc20mock "github.com/calmw/bee-tron/pkg/settlement/swap/erc20/mock"
+	"github.com/calmw/bee-tron/pkg/transaction"
+	"github.com/calmw/bee-tron/pkg/transaction/backendmock"
+	transactionmock "github.com/calmw/bee-tron/pkg/transaction/mock"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/api"
-	"github.com/ethersphere/bee/v2/pkg/bigint"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp/jsonhttptest"
-	erc20mock "github.com/ethersphere/bee/v2/pkg/settlement/swap/erc20/mock"
-	"github.com/ethersphere/bee/v2/pkg/transaction"
-	"github.com/ethersphere/bee/v2/pkg/transaction/backendmock"
-	transactionmock "github.com/ethersphere/bee/v2/pkg/transaction/mock"
 )
 
 func TestWallet(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/spinlock"
+	"github.com/calmw/bee-tron/pkg/spinlock"
 )
 
 func TestWait(t *testing.T) {

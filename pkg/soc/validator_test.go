@@ -10,10 +10,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/cac"
-	"github.com/ethersphere/bee/v2/pkg/crypto"
-	"github.com/ethersphere/bee/v2/pkg/soc"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/cac"
+	"github.com/calmw/bee-tron/pkg/crypto"
+	"github.com/calmw/bee-tron/pkg/soc"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 // TestValid verifies that the validator can detect

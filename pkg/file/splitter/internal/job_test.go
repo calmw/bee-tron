@@ -10,10 +10,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/file/splitter/internal"
-	test "github.com/ethersphere/bee/v2/pkg/file/testing"
-	"github.com/ethersphere/bee/v2/pkg/storage/inmemchunkstore"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/file/splitter/internal"
+	test "github.com/calmw/bee-tron/pkg/file/testing"
+	"github.com/calmw/bee-tron/pkg/storage/inmemchunkstore"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 var (

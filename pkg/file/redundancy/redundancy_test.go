@@ -11,10 +11,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/file/pipeline"
-	"github.com/ethersphere/bee/v2/pkg/file/pipeline/bmt"
-	"github.com/ethersphere/bee/v2/pkg/file/redundancy"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/file/pipeline"
+	"github.com/calmw/bee-tron/pkg/file/pipeline/bmt"
+	"github.com/calmw/bee-tron/pkg/file/redundancy"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 type mockEncoder struct {

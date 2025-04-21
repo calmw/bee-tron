@@ -8,7 +8,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/util/testutil"
+	"github.com/calmw/bee-tron/pkg/util/testutil"
 )
 
 // RandAddress generates a random address.

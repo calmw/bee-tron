@@ -7,9 +7,9 @@ package mem_test
 import (
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/crypto"
-	"github.com/ethersphere/bee/v2/pkg/keystore/mem"
-	"github.com/ethersphere/bee/v2/pkg/keystore/test"
+	"github.com/calmw/bee-tron/pkg/crypto"
+	"github.com/calmw/bee-tron/pkg/keystore/mem"
+	"github.com/calmw/bee-tron/pkg/keystore/test"
 )
 
 func TestService(t *testing.T) {

@@ -12,14 +12,14 @@ import (
 	"testing"
 	"time"
 
+	"github.com/calmw/bee-tron/pkg/api"
+	"github.com/calmw/bee-tron/pkg/bigint"
+	"github.com/calmw/bee-tron/pkg/jsonhttp"
+	"github.com/calmw/bee-tron/pkg/jsonhttp/jsonhttptest"
+	"github.com/calmw/bee-tron/pkg/transaction"
+	"github.com/calmw/bee-tron/pkg/transaction/mock"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethersphere/bee/v2/pkg/api"
-	"github.com/ethersphere/bee/v2/pkg/bigint"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp/jsonhttptest"
-	"github.com/ethersphere/bee/v2/pkg/transaction"
-	"github.com/ethersphere/bee/v2/pkg/transaction/mock"
 )
 
 func TestTransactionStoredTransaction(t *testing.T) {

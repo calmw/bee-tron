@@ -9,9 +9,9 @@ import (
 
 	ma "github.com/multiformats/go-multiaddr"
 
-	"github.com/ethersphere/bee/v2/pkg/bzz"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
-	"github.com/ethersphere/bee/v2/pkg/util/testutil"
+	"github.com/calmw/bee-tron/pkg/bzz"
+	"github.com/calmw/bee-tron/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/util/testutil"
 )
 
 func Test_ContainsAddress(t *testing.T) {

@@ -7,11 +7,11 @@ package redistribution
 import (
 	"encoding/binary"
 
+	"github.com/calmw/bee-tron/pkg/bmt"
+	"github.com/calmw/bee-tron/pkg/soc"
+	"github.com/calmw/bee-tron/pkg/storer"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/bmt"
-	"github.com/ethersphere/bee/v2/pkg/soc"
-	"github.com/ethersphere/bee/v2/pkg/storer"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
 )
 
 type ChunkInclusionProofs struct {

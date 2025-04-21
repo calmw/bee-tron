@@ -8,8 +8,8 @@ import (
 	"encoding/binary"
 	"path"
 
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 // BatchRadiusItemV1 allows iteration of the chunks with respect to bin and batchID.

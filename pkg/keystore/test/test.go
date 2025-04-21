@@ -9,7 +9,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/keystore"
+	"github.com/calmw/bee-tron/pkg/keystore"
 )
 
 // Service is a utility testing function that can be used to test

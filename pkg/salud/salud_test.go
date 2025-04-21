@@ -10,14 +10,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/salud"
-	"github.com/ethersphere/bee/v2/pkg/spinlock"
-	"github.com/ethersphere/bee/v2/pkg/status"
-	mockstorer "github.com/ethersphere/bee/v2/pkg/storer/mock"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
-	topMock "github.com/ethersphere/bee/v2/pkg/topology/mock"
-	"github.com/ethersphere/bee/v2/pkg/util/testutil"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/salud"
+	"github.com/calmw/bee-tron/pkg/spinlock"
+	"github.com/calmw/bee-tron/pkg/status"
+	mockstorer "github.com/calmw/bee-tron/pkg/storer/mock"
+	"github.com/calmw/bee-tron/pkg/swarm"
+	topMock "github.com/calmw/bee-tron/pkg/topology/mock"
+	"github.com/calmw/bee-tron/pkg/util/testutil"
 )
 
 type peer struct {

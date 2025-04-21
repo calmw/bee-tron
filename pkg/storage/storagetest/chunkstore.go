@@ -9,10 +9,10 @@ import (
 	"errors"
 	"testing"
 
-	postagetesting "github.com/ethersphere/bee/v2/pkg/postage/testing"
-	storage "github.com/ethersphere/bee/v2/pkg/storage"
-	chunktest "github.com/ethersphere/bee/v2/pkg/storage/testing"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	postagetesting "github.com/calmw/bee-tron/pkg/postage/testing"
+	storage "github.com/calmw/bee-tron/pkg/storage"
+	chunktest "github.com/calmw/bee-tron/pkg/storage/testing"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 // TestChunkStore runs a correctness test suite on a given ChunkStore.

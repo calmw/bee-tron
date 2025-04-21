@@ -12,17 +12,17 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/calmw/bee-tron/pkg/api"
+	"github.com/calmw/bee-tron/pkg/bigint"
+	"github.com/calmw/bee-tron/pkg/jsonhttp"
+	"github.com/calmw/bee-tron/pkg/jsonhttp/jsonhttptest"
+	"github.com/calmw/bee-tron/pkg/sctx"
+	"github.com/calmw/bee-tron/pkg/settlement/swap/chequebook"
+	"github.com/calmw/bee-tron/pkg/settlement/swap/chequebook/mock"
+	swapmock "github.com/calmw/bee-tron/pkg/settlement/swap/mock"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/api"
-	"github.com/ethersphere/bee/v2/pkg/bigint"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp/jsonhttptest"
-	"github.com/ethersphere/bee/v2/pkg/sctx"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/chequebook"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/chequebook/mock"
-	swapmock "github.com/ethersphere/bee/v2/pkg/settlement/swap/mock"
 
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 func TestChequebookBalance(t *testing.T) {

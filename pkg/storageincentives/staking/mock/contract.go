@@ -8,8 +8,8 @@ import (
 	"context"
 	"math/big"
 
+	"github.com/calmw/bee-tron/pkg/storageincentives/staking"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/storageincentives/staking"
 )
 
 type stakingContractMock struct {

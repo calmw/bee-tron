@@ -10,11 +10,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/crypto"
-	"github.com/ethersphere/bee/v2/pkg/postage"
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/storage/inmemstore"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/crypto"
+	"github.com/calmw/bee-tron/pkg/postage"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/storage/inmemstore"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 // TestStamperStamping tests if the stamp created by the stamper is valid.

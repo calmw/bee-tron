@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/tracing"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/tracing"
 )
 
 // NewHTTPAccessSuppressLogHandler creates a

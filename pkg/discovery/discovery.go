@@ -9,7 +9,7 @@ package discovery
 import (
 	"context"
 
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 type Driver interface {

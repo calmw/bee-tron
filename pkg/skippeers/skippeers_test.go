@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/skippeers"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/skippeers"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 func TestPruneExpiresAfter(t *testing.T) {

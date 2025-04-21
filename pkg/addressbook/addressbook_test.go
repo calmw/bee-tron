@@ -8,12 +8,12 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/calmw/bee-tron/pkg/addressbook"
+	"github.com/calmw/bee-tron/pkg/bzz"
+	"github.com/calmw/bee-tron/pkg/crypto"
+	"github.com/calmw/bee-tron/pkg/statestore/mock"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/addressbook"
-	"github.com/ethersphere/bee/v2/pkg/bzz"
-	"github.com/ethersphere/bee/v2/pkg/crypto"
-	"github.com/ethersphere/bee/v2/pkg/statestore/mock"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
 
 	ma "github.com/multiformats/go-multiaddr"
 )

@@ -13,10 +13,10 @@ import (
 	"hash"
 	"math/big"
 
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/postage"
+	"github.com/calmw/bee-tron/pkg/storage"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/postage"
-	"github.com/ethersphere/bee/v2/pkg/storage"
 	"golang.org/x/crypto/sha3"
 )
 

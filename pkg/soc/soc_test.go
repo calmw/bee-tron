@@ -11,11 +11,11 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/calmw/bee-tron/pkg/cac"
+	"github.com/calmw/bee-tron/pkg/crypto"
+	"github.com/calmw/bee-tron/pkg/soc"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/cac"
-	"github.com/ethersphere/bee/v2/pkg/crypto"
-	"github.com/ethersphere/bee/v2/pkg/soc"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
 )
 
 func TestNew(t *testing.T) {

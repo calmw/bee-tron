@@ -14,9 +14,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethersphere/bee/v2/pkg/file"
-	"github.com/ethersphere/bee/v2/pkg/manifest"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/file"
+	"github.com/calmw/bee-tron/pkg/manifest"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 var (

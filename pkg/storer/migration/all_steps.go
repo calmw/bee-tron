@@ -5,10 +5,10 @@
 package migration
 
 import (
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/storage/migration"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/transaction"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/storage/migration"
+	"github.com/calmw/bee-tron/pkg/storer/internal/transaction"
 )
 
 // AfterInitSteps lists all migration steps for localstore IndexStore after the localstore is initiated.

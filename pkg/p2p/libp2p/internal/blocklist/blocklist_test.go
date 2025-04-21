@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/p2p"
-	"github.com/ethersphere/bee/v2/pkg/p2p/libp2p/internal/blocklist"
-	"github.com/ethersphere/bee/v2/pkg/statestore/mock"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/p2p"
+	"github.com/calmw/bee-tron/pkg/p2p/libp2p/internal/blocklist"
+	"github.com/calmw/bee-tron/pkg/statestore/mock"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 func TestExist(t *testing.T) {

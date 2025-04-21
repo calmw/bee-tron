@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/bmt"
-	"github.com/ethersphere/bee/v2/pkg/bmt/reference"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
-	"github.com/ethersphere/bee/v2/pkg/util/testutil"
+	"github.com/calmw/bee-tron/pkg/bmt"
+	"github.com/calmw/bee-tron/pkg/bmt/reference"
+	"github.com/calmw/bee-tron/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/util/testutil"
 	"golang.org/x/sync/errgroup"
 )
 

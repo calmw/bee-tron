@@ -8,11 +8,11 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/ethersphere/bee/v2/pkg/postage"
-	storage "github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/postage"
+	storage "github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/swarm"
 
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp"
+	"github.com/calmw/bee-tron/pkg/jsonhttp"
 	"github.com/gorilla/mux"
 )
 

@@ -11,9 +11,9 @@ import (
 	"net/http/pprof"
 	"strings"
 
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp"
-	"github.com/ethersphere/bee/v2/pkg/log/httpaccess"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/jsonhttp"
+	"github.com/calmw/bee-tron/pkg/log/httpaccess"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/felixge/fgprof"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"

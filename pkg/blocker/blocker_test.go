@@ -11,11 +11,11 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/ethersphere/bee/v2/pkg/blocker"
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/p2p"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
-	"github.com/ethersphere/bee/v2/pkg/util/testutil"
+	"github.com/calmw/bee-tron/pkg/blocker"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/p2p"
+	"github.com/calmw/bee-tron/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/util/testutil"
 )
 
 const (

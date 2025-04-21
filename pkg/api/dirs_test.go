@@ -17,15 +17,15 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/api"
-	"github.com/ethersphere/bee/v2/pkg/file/loadsave"
-	"github.com/ethersphere/bee/v2/pkg/file/redundancy"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp/jsonhttptest"
-	"github.com/ethersphere/bee/v2/pkg/manifest"
-	mockpost "github.com/ethersphere/bee/v2/pkg/postage/mock"
-	mockstorer "github.com/ethersphere/bee/v2/pkg/storer/mock"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/api"
+	"github.com/calmw/bee-tron/pkg/file/loadsave"
+	"github.com/calmw/bee-tron/pkg/file/redundancy"
+	"github.com/calmw/bee-tron/pkg/jsonhttp"
+	"github.com/calmw/bee-tron/pkg/jsonhttp/jsonhttptest"
+	"github.com/calmw/bee-tron/pkg/manifest"
+	mockpost "github.com/calmw/bee-tron/pkg/postage/mock"
+	mockstorer "github.com/calmw/bee-tron/pkg/storer/mock"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 // nolint:paralleltest

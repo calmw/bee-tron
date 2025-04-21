@@ -8,8 +8,8 @@ import (
 	"crypto/ecdsa"
 	"hash"
 
-	"github.com/ethersphere/bee/v2/pkg/crypto"
-	"github.com/ethersphere/bee/v2/pkg/encryption"
+	"github.com/calmw/bee-tron/pkg/crypto"
+	"github.com/calmw/bee-tron/pkg/encryption"
 )
 
 // New constructs an encryption interface (the modified blockcipher) with a base key derived from

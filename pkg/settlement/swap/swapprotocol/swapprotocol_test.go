@@ -14,16 +14,16 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/p2p"
-	"github.com/ethersphere/bee/v2/pkg/p2p/protobuf"
-	"github.com/ethersphere/bee/v2/pkg/p2p/streamtest"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/chequebook"
-	swapmock "github.com/ethersphere/bee/v2/pkg/settlement/swap/mock"
-	priceoraclemock "github.com/ethersphere/bee/v2/pkg/settlement/swap/priceoracle/mock"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/swapprotocol"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/swapprotocol/pb"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/p2p"
+	"github.com/calmw/bee-tron/pkg/p2p/protobuf"
+	"github.com/calmw/bee-tron/pkg/p2p/streamtest"
+	"github.com/calmw/bee-tron/pkg/settlement/swap/chequebook"
+	swapmock "github.com/calmw/bee-tron/pkg/settlement/swap/mock"
+	priceoraclemock "github.com/calmw/bee-tron/pkg/settlement/swap/priceoracle/mock"
+	"github.com/calmw/bee-tron/pkg/settlement/swap/swapprotocol"
+	"github.com/calmw/bee-tron/pkg/settlement/swap/swapprotocol/pb"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 func TestEmitCheques(t *testing.T) {

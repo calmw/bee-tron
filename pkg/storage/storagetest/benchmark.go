@@ -16,9 +16,9 @@ import (
 	"testing"
 	"time"
 
-	postagetesting "github.com/ethersphere/bee/v2/pkg/postage/testing"
-	storage "github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	postagetesting "github.com/calmw/bee-tron/pkg/postage/testing"
+	storage "github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 var (

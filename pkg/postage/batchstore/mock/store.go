@@ -10,9 +10,9 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethersphere/bee/v2/pkg/postage"
-	"github.com/ethersphere/bee/v2/pkg/postage/batchstore"
-	"github.com/ethersphere/bee/v2/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/postage"
+	"github.com/calmw/bee-tron/pkg/postage/batchstore"
+	"github.com/calmw/bee-tron/pkg/storage"
 )
 
 var _ postage.Storer = (*BatchStore)(nil)

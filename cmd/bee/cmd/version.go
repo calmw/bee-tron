@@ -5,7 +5,7 @@
 package cmd
 
 import (
-	"github.com/ethersphere/bee/v2"
+	"github.com/calmw/bee-tron"
 
 	"github.com/spf13/cobra"
 )

@@ -7,11 +7,11 @@ import (
 	"encoding/hex"
 	"testing"
 
+	"github.com/calmw/bee-tron/pkg/cac"
+	"github.com/calmw/bee-tron/pkg/soc"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/cac"
-	"github.com/ethersphere/bee/v2/pkg/soc"
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
 )
 
 func TestIdentityAddress(t *testing.T) {

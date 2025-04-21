@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp"
+	"github.com/calmw/bee-tron/pkg/jsonhttp"
 )
 
 func TestMethodHandler(t *testing.T) {

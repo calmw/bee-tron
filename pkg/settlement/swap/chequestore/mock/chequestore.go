@@ -8,8 +8,8 @@ import (
 	"context"
 	"math/big"
 
+	"github.com/calmw/bee-tron/pkg/settlement/swap/chequebook"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/chequebook"
 )
 
 // Service is the mock chequeStore service.

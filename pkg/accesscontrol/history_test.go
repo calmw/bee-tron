@@ -10,14 +10,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/accesscontrol"
-	"github.com/ethersphere/bee/v2/pkg/file/loadsave"
-	"github.com/ethersphere/bee/v2/pkg/file/pipeline"
-	"github.com/ethersphere/bee/v2/pkg/file/pipeline/builder"
-	"github.com/ethersphere/bee/v2/pkg/file/redundancy"
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	mockstorer "github.com/ethersphere/bee/v2/pkg/storer/mock"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/accesscontrol"
+	"github.com/calmw/bee-tron/pkg/file/loadsave"
+	"github.com/calmw/bee-tron/pkg/file/pipeline"
+	"github.com/calmw/bee-tron/pkg/file/pipeline/builder"
+	"github.com/calmw/bee-tron/pkg/file/redundancy"
+	"github.com/calmw/bee-tron/pkg/storage"
+	mockstorer "github.com/calmw/bee-tron/pkg/storer/mock"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/stretchr/testify/assert"
 )
 

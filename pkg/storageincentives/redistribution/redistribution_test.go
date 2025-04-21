@@ -13,17 +13,17 @@ import (
 	"math/big"
 	"testing"
 
+	chaincfg "github.com/calmw/bee-tron/pkg/config"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/sctx"
+	"github.com/calmw/bee-tron/pkg/storageincentives/redistribution"
+	"github.com/calmw/bee-tron/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/transaction"
+	transactionMock "github.com/calmw/bee-tron/pkg/transaction/mock"
+	"github.com/calmw/bee-tron/pkg/util/abiutil"
+	"github.com/calmw/bee-tron/pkg/util/testutil"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	chaincfg "github.com/ethersphere/bee/v2/pkg/config"
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/sctx"
-	"github.com/ethersphere/bee/v2/pkg/storageincentives/redistribution"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
-	"github.com/ethersphere/bee/v2/pkg/transaction"
-	transactionMock "github.com/ethersphere/bee/v2/pkg/transaction/mock"
-	"github.com/ethersphere/bee/v2/pkg/util/abiutil"
-	"github.com/ethersphere/bee/v2/pkg/util/testutil"
 )
 
 var redistributionContractABI = abiutil.MustParseABI(chaincfg.Testnet.RedistributionABI)

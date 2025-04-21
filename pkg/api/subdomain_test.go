@@ -10,13 +10,13 @@ import (
 	"path"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/api"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp/jsonhttptest"
-	"github.com/ethersphere/bee/v2/pkg/log"
-	mockpost "github.com/ethersphere/bee/v2/pkg/postage/mock"
-	resolverMock "github.com/ethersphere/bee/v2/pkg/resolver/mock"
-	mockstorer "github.com/ethersphere/bee/v2/pkg/storer/mock"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/api"
+	"github.com/calmw/bee-tron/pkg/jsonhttp/jsonhttptest"
+	"github.com/calmw/bee-tron/pkg/log"
+	mockpost "github.com/calmw/bee-tron/pkg/postage/mock"
+	resolverMock "github.com/calmw/bee-tron/pkg/resolver/mock"
+	mockstorer "github.com/calmw/bee-tron/pkg/storer/mock"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 func TestSubdomains(t *testing.T) {

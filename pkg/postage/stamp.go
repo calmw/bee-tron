@@ -10,9 +10,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethersphere/bee/v2/pkg/crypto"
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/crypto"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 // StampSize is the number of bytes in the serialisation of a stamp

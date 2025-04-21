@@ -10,10 +10,10 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/calmw/bee-tron/pkg/crypto"
+	"github.com/calmw/bee-tron/pkg/keystore/file"
+	"github.com/calmw/bee-tron/pkg/keystore/test"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethersphere/bee/v2/pkg/crypto"
-	"github.com/ethersphere/bee/v2/pkg/keystore/file"
-	"github.com/ethersphere/bee/v2/pkg/keystore/test"
 )
 
 func TestService(t *testing.T) {

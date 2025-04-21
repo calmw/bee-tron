@@ -5,7 +5,7 @@
 package redundancy
 
 import (
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 // EncodeLevel encodes used redundancy level for uploading into span keeping the real byte count for the chunk.

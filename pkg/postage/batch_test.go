@@ -8,8 +8,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/postage"
-	postagetesting "github.com/ethersphere/bee/v2/pkg/postage/testing"
+	"github.com/calmw/bee-tron/pkg/postage"
+	postagetesting "github.com/calmw/bee-tron/pkg/postage/testing"
 )
 
 // TestBatchMarshalling tests the idempotence  of binary marshal/unmarshal for a

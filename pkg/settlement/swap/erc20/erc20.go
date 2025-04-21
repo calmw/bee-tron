@@ -9,11 +9,11 @@ import (
 	"errors"
 	"math/big"
 
+	"github.com/calmw/bee-tron/pkg/sctx"
+	"github.com/calmw/bee-tron/pkg/transaction"
+	"github.com/calmw/bee-tron/pkg/util/abiutil"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/sctx"
-	"github.com/ethersphere/bee/v2/pkg/transaction"
-	"github.com/ethersphere/bee/v2/pkg/util/abiutil"
 	"github.com/ethersphere/go-sw3-abi/sw3abi"
 )
 

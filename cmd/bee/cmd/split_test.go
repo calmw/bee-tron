@@ -17,12 +17,12 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/cmd/bee/cmd"
-	"github.com/ethersphere/bee/v2/pkg/api"
-	"github.com/ethersphere/bee/v2/pkg/file/pipeline/builder"
-	"github.com/ethersphere/bee/v2/pkg/file/redundancy"
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/cmd/bee/cmd"
+	"github.com/calmw/bee-tron/pkg/api"
+	"github.com/calmw/bee-tron/pkg/file/pipeline/builder"
+	"github.com/calmw/bee-tron/pkg/file/redundancy"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 func TestDBSplitRefs(t *testing.T) {

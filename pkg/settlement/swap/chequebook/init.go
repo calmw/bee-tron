@@ -12,13 +12,13 @@ import (
 	"math/big"
 	"time"
 
+	chaincfg "github.com/calmw/bee-tron/pkg/config"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/sctx"
+	"github.com/calmw/bee-tron/pkg/settlement/swap/erc20"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/transaction"
 	"github.com/ethereum/go-ethereum/common"
-	chaincfg "github.com/ethersphere/bee/v2/pkg/config"
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/sctx"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/erc20"
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/transaction"
 )
 
 const (

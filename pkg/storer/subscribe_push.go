@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/upload"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/storer/internal/upload"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 const subscribePushEventKey = "subscribe-push"

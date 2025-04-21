@@ -7,7 +7,7 @@ package p2p_test
 import (
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/p2p"
+	"github.com/calmw/bee-tron/pkg/p2p"
 	"github.com/libp2p/go-libp2p/core/network"
 )
 

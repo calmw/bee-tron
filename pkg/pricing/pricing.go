@@ -11,11 +11,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/p2p"
-	"github.com/ethersphere/bee/v2/pkg/p2p/protobuf"
-	"github.com/ethersphere/bee/v2/pkg/pricing/pb"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/p2p"
+	"github.com/calmw/bee-tron/pkg/p2p/protobuf"
+	"github.com/calmw/bee-tron/pkg/pricing/pb"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 // loggerName is the tree path name of the logger for this package.

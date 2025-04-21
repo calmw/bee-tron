@@ -4,7 +4,7 @@
 
 package multiresolver
 
-import "github.com/ethersphere/bee/v2/pkg/log"
+import "github.com/calmw/bee-tron/pkg/log"
 
 func GetLogger(mr *MultiResolver) log.Logger {
 	return mr.logger

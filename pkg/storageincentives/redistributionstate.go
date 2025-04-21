@@ -11,13 +11,13 @@ import (
 	"sync"
 	"time"
 
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/settlement/swap/erc20"
+	"github.com/calmw/bee-tron/pkg/storage"
+	storer "github.com/calmw/bee-tron/pkg/storer"
+	"github.com/calmw/bee-tron/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/transaction"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/erc20"
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	storer "github.com/ethersphere/bee/v2/pkg/storer"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
-	"github.com/ethersphere/bee/v2/pkg/transaction"
 )
 
 const loggerNameNode = "nodestatus"

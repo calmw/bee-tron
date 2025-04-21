@@ -13,10 +13,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/accesscontrol"
-	kvsmock "github.com/ethersphere/bee/v2/pkg/accesscontrol/kvs/mock"
-	"github.com/ethersphere/bee/v2/pkg/crypto"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/accesscontrol"
+	kvsmock "github.com/calmw/bee-tron/pkg/accesscontrol/kvs/mock"
+	"github.com/calmw/bee-tron/pkg/crypto"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/stretchr/testify/assert"
 )
 

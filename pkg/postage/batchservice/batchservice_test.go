@@ -12,15 +12,15 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/postage"
+	"github.com/calmw/bee-tron/pkg/postage/batchservice"
+	"github.com/calmw/bee-tron/pkg/postage/batchstore/mock"
+	postagetesting "github.com/calmw/bee-tron/pkg/postage/testing"
+	mocks "github.com/calmw/bee-tron/pkg/statestore/mock"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/util/testutil"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/postage"
-	"github.com/ethersphere/bee/v2/pkg/postage/batchservice"
-	"github.com/ethersphere/bee/v2/pkg/postage/batchstore/mock"
-	postagetesting "github.com/ethersphere/bee/v2/pkg/postage/testing"
-	mocks "github.com/ethersphere/bee/v2/pkg/statestore/mock"
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/util/testutil"
 )
 
 var (

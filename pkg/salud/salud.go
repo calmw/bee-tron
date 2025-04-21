@@ -12,11 +12,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/status"
-	"github.com/ethersphere/bee/v2/pkg/storer"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
-	"github.com/ethersphere/bee/v2/pkg/topology"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/status"
+	"github.com/calmw/bee-tron/pkg/storer"
+	"github.com/calmw/bee-tron/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/topology"
 	"go.uber.org/atomic"
 )
 

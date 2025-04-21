@@ -9,7 +9,7 @@ package cmd
 import (
 	"errors"
 
-	"github.com/ethersphere/bee/v2/pkg/log"
+	"github.com/calmw/bee-tron/pkg/log"
 )
 
 func isWindowsService() (bool, error) {

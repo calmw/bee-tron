@@ -7,9 +7,9 @@ package bmt
 import (
 	"errors"
 
-	"github.com/ethersphere/bee/v2/pkg/bmtpool"
-	"github.com/ethersphere/bee/v2/pkg/file/pipeline"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/bmtpool"
+	"github.com/calmw/bee-tron/pkg/file/pipeline"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 var (

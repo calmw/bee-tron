@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp/jsonhttptest"
+	"github.com/calmw/bee-tron/pkg/jsonhttp/jsonhttptest"
 )
 
 func TestEndpointOptions(t *testing.T) {

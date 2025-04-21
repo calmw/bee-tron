@@ -7,7 +7,7 @@ package mock
 import (
 	"sync"
 
-	"github.com/ethersphere/bee/v2/pkg/file/pipeline"
+	"github.com/calmw/bee-tron/pkg/file/pipeline"
 )
 
 type MockChainWriter struct {

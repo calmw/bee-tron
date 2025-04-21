@@ -8,7 +8,7 @@ import (
 	"crypto/rand"
 	"encoding/binary"
 
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 // GenerateTestRandomFileChunk generates one single chunk with arbitrary content and address

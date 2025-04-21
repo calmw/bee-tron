@@ -7,8 +7,8 @@ package migration
 import (
 	"context"
 
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/reserve"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/transaction"
+	"github.com/calmw/bee-tron/pkg/storer/internal/reserve"
+	"github.com/calmw/bee-tron/pkg/storer/internal/transaction"
 )
 
 // resetReserveEpochTimestamp is a migration that resets the epoch timestamp of the reserve

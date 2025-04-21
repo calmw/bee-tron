@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	chunktesting "github.com/ethersphere/bee/v2/pkg/storage/testing"
-	storer "github.com/ethersphere/bee/v2/pkg/storer"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	chunktesting "github.com/calmw/bee-tron/pkg/storage/testing"
+	storer "github.com/calmw/bee-tron/pkg/storer"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 func testPinStore(t *testing.T, newStorer func() (*storer.DB, error)) {

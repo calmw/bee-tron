@@ -12,7 +12,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/postage"
+	"github.com/calmw/bee-tron/pkg/postage"
 )
 
 const (

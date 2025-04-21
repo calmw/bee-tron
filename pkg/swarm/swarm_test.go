@@ -11,7 +11,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 func TestAddress(t *testing.T) {

@@ -7,8 +7,8 @@ package mock
 import (
 	"fmt"
 
-	"github.com/ethersphere/bee/v2/pkg/resolver"
-	"github.com/ethersphere/bee/v2/pkg/resolver/client/ens"
+	"github.com/calmw/bee-tron/pkg/resolver"
+	"github.com/calmw/bee-tron/pkg/resolver/client/ens"
 )
 
 // Assure mock Resolver implements the Resolver interface.

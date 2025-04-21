@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/p2p"
-	"github.com/ethersphere/bee/v2/pkg/shed"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/p2p"
+	"github.com/calmw/bee-tron/pkg/shed"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 

@@ -11,16 +11,16 @@ import (
 	"testing"
 	"time"
 
+	"github.com/calmw/bee-tron/pkg/crypto"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/settlement/swap"
+	"github.com/calmw/bee-tron/pkg/settlement/swap/chequebook"
+	mockchequebook "github.com/calmw/bee-tron/pkg/settlement/swap/chequebook/mock"
+	mockchequestore "github.com/calmw/bee-tron/pkg/settlement/swap/chequestore/mock"
+	"github.com/calmw/bee-tron/pkg/settlement/swap/swapprotocol"
+	mockstore "github.com/calmw/bee-tron/pkg/statestore/mock"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/crypto"
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/chequebook"
-	mockchequebook "github.com/ethersphere/bee/v2/pkg/settlement/swap/chequebook/mock"
-	mockchequestore "github.com/ethersphere/bee/v2/pkg/settlement/swap/chequestore/mock"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/swapprotocol"
-	mockstore "github.com/ethersphere/bee/v2/pkg/statestore/mock"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
 )
 
 type swapProtocolMock struct {

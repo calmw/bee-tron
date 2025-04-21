@@ -7,8 +7,8 @@ package leveldbstore_test
 import (
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/storage/leveldbstore"
-	"github.com/ethersphere/bee/v2/pkg/storage/storagetest"
+	"github.com/calmw/bee-tron/pkg/storage/leveldbstore"
+	"github.com/calmw/bee-tron/pkg/storage/storagetest"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 )
 

@@ -8,11 +8,11 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/storage/inmemchunkstore"
-	"github.com/ethersphere/bee/v2/pkg/storage/inmemstore"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/transaction"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/storage/inmemchunkstore"
+	"github.com/calmw/bee-tron/pkg/storage/inmemstore"
+	"github.com/calmw/bee-tron/pkg/storer/internal/transaction"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 // PutterCloserWithReference provides a Putter which can be closed with a root

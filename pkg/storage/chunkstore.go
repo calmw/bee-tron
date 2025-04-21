@@ -7,7 +7,7 @@ package storage
 import (
 	"context"
 
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 // Getter is the interface that wraps the basic Get method.

@@ -9,11 +9,11 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/api"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp/jsonhttptest"
-	mockbatchstore "github.com/ethersphere/bee/v2/pkg/postage/batchstore/mock"
-	mockpost "github.com/ethersphere/bee/v2/pkg/postage/mock"
+	"github.com/calmw/bee-tron/pkg/api"
+	"github.com/calmw/bee-tron/pkg/jsonhttp"
+	"github.com/calmw/bee-tron/pkg/jsonhttp/jsonhttptest"
+	mockbatchstore "github.com/calmw/bee-tron/pkg/postage/batchstore/mock"
+	mockpost "github.com/calmw/bee-tron/pkg/postage/mock"
 )
 
 func TestPostEnvelope(t *testing.T) {

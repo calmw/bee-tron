@@ -13,14 +13,14 @@ import (
 	"strings"
 	"testing"
 
+	chaincfg "github.com/calmw/bee-tron/pkg/config"
+	"github.com/calmw/bee-tron/pkg/storageincentives/staking"
+	"github.com/calmw/bee-tron/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/transaction"
+	transactionMock "github.com/calmw/bee-tron/pkg/transaction/mock"
+	"github.com/calmw/bee-tron/pkg/util/abiutil"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	chaincfg "github.com/ethersphere/bee/v2/pkg/config"
-	"github.com/ethersphere/bee/v2/pkg/storageincentives/staking"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
-	"github.com/ethersphere/bee/v2/pkg/transaction"
-	transactionMock "github.com/ethersphere/bee/v2/pkg/transaction/mock"
-	"github.com/ethersphere/bee/v2/pkg/util/abiutil"
 )
 
 var stakingContractABI = abiutil.MustParseABI(chaincfg.Testnet.StakingABI)

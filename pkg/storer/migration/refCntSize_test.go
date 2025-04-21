@@ -8,12 +8,12 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/sharky"
-	"github.com/ethersphere/bee/v2/pkg/storage/inmemstore"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/chunkstore"
-	localmigration "github.com/ethersphere/bee/v2/pkg/storer/migration"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/sharky"
+	"github.com/calmw/bee-tron/pkg/storage/inmemstore"
+	"github.com/calmw/bee-tron/pkg/storer/internal/chunkstore"
+	localmigration "github.com/calmw/bee-tron/pkg/storer/migration"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/stretchr/testify/assert"
 )
 

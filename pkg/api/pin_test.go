@@ -10,16 +10,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/api"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp/jsonhttptest"
-	"github.com/ethersphere/bee/v2/pkg/log"
-	mockpost "github.com/ethersphere/bee/v2/pkg/postage/mock"
-	storage "github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/storage/inmemstore"
-	storer "github.com/ethersphere/bee/v2/pkg/storer"
-	mockstorer "github.com/ethersphere/bee/v2/pkg/storer/mock"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/api"
+	"github.com/calmw/bee-tron/pkg/jsonhttp"
+	"github.com/calmw/bee-tron/pkg/jsonhttp/jsonhttptest"
+	"github.com/calmw/bee-tron/pkg/log"
+	mockpost "github.com/calmw/bee-tron/pkg/postage/mock"
+	storage "github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/storage/inmemstore"
+	storer "github.com/calmw/bee-tron/pkg/storer"
+	mockstorer "github.com/calmw/bee-tron/pkg/storer/mock"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 func checkPinHandlers(t *testing.T, client *http.Client, rootHash string, createPin bool) {

@@ -9,14 +9,14 @@ import (
 	"math/big"
 	"net/http"
 
+	"github.com/calmw/bee-tron/pkg/bigint"
+	"github.com/calmw/bee-tron/pkg/jsonhttp"
+	"github.com/calmw/bee-tron/pkg/postage/postagecontract"
+	"github.com/calmw/bee-tron/pkg/settlement/swap"
+	"github.com/calmw/bee-tron/pkg/settlement/swap/chequebook"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/bigint"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp"
-	"github.com/ethersphere/bee/v2/pkg/postage/postagecontract"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/chequebook"
 
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/gorilla/mux"
 )
 

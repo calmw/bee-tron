@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/p2p"
-	swap "github.com/ethersphere/bee/v2/pkg/settlement/swap/headers"
+	"github.com/calmw/bee-tron/pkg/p2p"
+	swap "github.com/calmw/bee-tron/pkg/settlement/swap/headers"
 )
 
 func TestParseSettlementResponseHeaders(t *testing.T) {

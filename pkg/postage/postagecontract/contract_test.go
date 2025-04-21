@@ -12,17 +12,17 @@ import (
 	"math/big"
 	"testing"
 
+	chaincfg "github.com/calmw/bee-tron/pkg/config"
+	"github.com/calmw/bee-tron/pkg/postage"
+	postagestoreMock "github.com/calmw/bee-tron/pkg/postage/batchstore/mock"
+	postageMock "github.com/calmw/bee-tron/pkg/postage/mock"
+	"github.com/calmw/bee-tron/pkg/postage/postagecontract"
+	postagetesting "github.com/calmw/bee-tron/pkg/postage/testing"
+	"github.com/calmw/bee-tron/pkg/transaction"
+	transactionMock "github.com/calmw/bee-tron/pkg/transaction/mock"
+	"github.com/calmw/bee-tron/pkg/util/abiutil"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	chaincfg "github.com/ethersphere/bee/v2/pkg/config"
-	"github.com/ethersphere/bee/v2/pkg/postage"
-	postagestoreMock "github.com/ethersphere/bee/v2/pkg/postage/batchstore/mock"
-	postageMock "github.com/ethersphere/bee/v2/pkg/postage/mock"
-	"github.com/ethersphere/bee/v2/pkg/postage/postagecontract"
-	postagetesting "github.com/ethersphere/bee/v2/pkg/postage/testing"
-	"github.com/ethersphere/bee/v2/pkg/transaction"
-	transactionMock "github.com/ethersphere/bee/v2/pkg/transaction/mock"
-	"github.com/ethersphere/bee/v2/pkg/util/abiutil"
 )
 
 var postageStampContractABI = abiutil.MustParseABI(chaincfg.Testnet.PostageStampABI)

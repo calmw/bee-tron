@@ -11,7 +11,7 @@ import (
 	"sync"
 
 	"github.com/armon/go-radix"
-	"github.com/ethersphere/bee/v2/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/storage"
 )
 
 const (

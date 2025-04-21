@@ -10,14 +10,14 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/postage/postagecontract"
+	"github.com/calmw/bee-tron/pkg/settlement"
+	"github.com/calmw/bee-tron/pkg/settlement/swap/chequebook"
+	"github.com/calmw/bee-tron/pkg/settlement/swap/swapprotocol"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/postage/postagecontract"
-	"github.com/ethersphere/bee/v2/pkg/settlement"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/chequebook"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/swapprotocol"
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
 )
 
 // loggerName is the tree path name of the logger for this package.

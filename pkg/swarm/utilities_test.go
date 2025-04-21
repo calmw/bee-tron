@@ -7,7 +7,7 @@ package swarm_test
 import (
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 func Test_ContainsAddress(t *testing.T) {

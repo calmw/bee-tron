@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/calmw/bee-tron/pkg/crypto"
+	"github.com/calmw/bee-tron/pkg/crypto/eip712"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethersphere/bee/v2/pkg/crypto"
-	"github.com/ethersphere/bee/v2/pkg/crypto/eip712"
 )
 
 // Cheque represents a cheque for a SimpleSwap chequebook

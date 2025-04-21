@@ -13,10 +13,10 @@ import (
 	"strings"
 	"time"
 
-	chaincfg "github.com/ethersphere/bee/v2/pkg/config"
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/node"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	chaincfg "github.com/calmw/bee-tron/pkg/config"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/node"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

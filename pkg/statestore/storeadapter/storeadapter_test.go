@@ -7,11 +7,11 @@ package storeadapter_test
 import (
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/statestore/storeadapter"
-	"github.com/ethersphere/bee/v2/pkg/statestore/test"
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/storage/inmemstore"
-	"github.com/ethersphere/bee/v2/pkg/storage/leveldbstore"
+	"github.com/calmw/bee-tron/pkg/statestore/storeadapter"
+	"github.com/calmw/bee-tron/pkg/statestore/test"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/storage/inmemstore"
+	"github.com/calmw/bee-tron/pkg/storage/leveldbstore"
 )
 
 func TestStateStoreAdapter(t *testing.T) {

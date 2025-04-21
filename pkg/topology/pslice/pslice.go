@@ -7,8 +7,8 @@ package pslice
 import (
 	"sync"
 
-	"github.com/ethersphere/bee/v2/pkg/swarm"
-	"github.com/ethersphere/bee/v2/pkg/topology"
+	"github.com/calmw/bee-tron/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/topology"
 )
 
 // PSlice maintains a list of addresses, indexing them by their different proximity orders.

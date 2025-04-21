@@ -7,7 +7,7 @@ package api
 import (
 	"net/http"
 
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp"
+	"github.com/calmw/bee-tron/pkg/jsonhttp"
 )
 
 type BeeNodeMode uint

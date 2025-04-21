@@ -9,9 +9,9 @@ import (
 	"errors"
 	"time"
 
-	m "github.com/ethersphere/bee/v2/pkg/metrics"
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	m "github.com/calmw/bee-tron/pkg/metrics"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

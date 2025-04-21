@@ -13,10 +13,10 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/ethersphere/bee/v2/pkg/file/pipeline/builder"
-	"github.com/ethersphere/bee/v2/pkg/file/redundancy"
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/file/pipeline/builder"
+	"github.com/calmw/bee-tron/pkg/file/redundancy"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/spf13/cobra"
 )
 

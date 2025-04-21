@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethersphere/bee/v2/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/storage"
 	ldb "github.com/syndtr/goleveldb/leveldb"
 )
 

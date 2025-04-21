@@ -10,10 +10,10 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/calmw/bee-tron/pkg/settlement/swap/chequebook"
+	storemock "github.com/calmw/bee-tron/pkg/statestore/mock"
+	transactionmock "github.com/calmw/bee-tron/pkg/transaction/mock"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/chequebook"
-	storemock "github.com/ethersphere/bee/v2/pkg/statestore/mock"
-	transactionmock "github.com/ethersphere/bee/v2/pkg/transaction/mock"
 )
 
 func TestReceiveCheque(t *testing.T) {

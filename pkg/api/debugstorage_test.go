@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp/jsonhttptest"
-	"github.com/ethersphere/bee/v2/pkg/storer"
-	mockstorer "github.com/ethersphere/bee/v2/pkg/storer/mock"
+	"github.com/calmw/bee-tron/pkg/jsonhttp/jsonhttptest"
+	"github.com/calmw/bee-tron/pkg/storer"
+	mockstorer "github.com/calmw/bee-tron/pkg/storer/mock"
 )
 
 func TestDebugStorage(t *testing.T) {

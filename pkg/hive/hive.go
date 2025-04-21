@@ -20,14 +20,14 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"github.com/ethersphere/bee/v2/pkg/addressbook"
-	"github.com/ethersphere/bee/v2/pkg/bzz"
-	"github.com/ethersphere/bee/v2/pkg/hive/pb"
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/p2p"
-	"github.com/ethersphere/bee/v2/pkg/p2p/protobuf"
-	"github.com/ethersphere/bee/v2/pkg/ratelimit"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/addressbook"
+	"github.com/calmw/bee-tron/pkg/bzz"
+	"github.com/calmw/bee-tron/pkg/hive/pb"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/p2p"
+	"github.com/calmw/bee-tron/pkg/p2p/protobuf"
+	"github.com/calmw/bee-tron/pkg/ratelimit"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"
 )

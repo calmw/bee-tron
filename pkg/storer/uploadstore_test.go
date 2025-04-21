@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	storage "github.com/ethersphere/bee/v2/pkg/storage"
-	chunktesting "github.com/ethersphere/bee/v2/pkg/storage/testing"
-	storer "github.com/ethersphere/bee/v2/pkg/storer"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	storage "github.com/calmw/bee-tron/pkg/storage"
+	chunktesting "github.com/calmw/bee-tron/pkg/storage/testing"
+	storer "github.com/calmw/bee-tron/pkg/storer"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/google/go-cmp/cmp"
 )
 

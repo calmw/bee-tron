@@ -7,9 +7,9 @@ package storeadapter
 import (
 	"strings"
 
-	"github.com/ethersphere/bee/v2/pkg/puller"
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/storage/migration"
+	"github.com/calmw/bee-tron/pkg/puller"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/storage/migration"
 )
 
 func allSteps(st storage.Store) migration.Steps {

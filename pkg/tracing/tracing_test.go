@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/p2p"
-	"github.com/ethersphere/bee/v2/pkg/tracing"
-	"github.com/ethersphere/bee/v2/pkg/util/testutil"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/p2p"
+	"github.com/calmw/bee-tron/pkg/tracing"
+	"github.com/calmw/bee-tron/pkg/util/testutil"
 	"github.com/uber/jaeger-client-go"
 )
 

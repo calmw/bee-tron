@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/postage"
+	"github.com/calmw/bee-tron/pkg/postage"
 
-	postagetesting "github.com/ethersphere/bee/v2/pkg/postage/testing"
-	chunk "github.com/ethersphere/bee/v2/pkg/storage/testing"
-	"github.com/ethersphere/bee/v2/pkg/storer"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	postagetesting "github.com/calmw/bee-tron/pkg/postage/testing"
+	chunk "github.com/calmw/bee-tron/pkg/storage/testing"
+	"github.com/calmw/bee-tron/pkg/storer"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/google/go-cmp/cmp"
 )
 

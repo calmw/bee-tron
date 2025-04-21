@@ -10,13 +10,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/storage/inmemstore"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/transaction"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/storage/inmemstore"
+	"github.com/calmw/bee-tron/pkg/storer/internal"
+	"github.com/calmw/bee-tron/pkg/storer/internal/transaction"
 
-	"github.com/ethersphere/bee/v2/pkg/storage/migration"
-	localmigration "github.com/ethersphere/bee/v2/pkg/storer/migration"
+	"github.com/calmw/bee-tron/pkg/storage/migration"
+	localmigration "github.com/calmw/bee-tron/pkg/storer/migration"
 )
 
 func TestPreSteps(t *testing.T) {

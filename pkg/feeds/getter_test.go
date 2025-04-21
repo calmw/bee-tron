@@ -10,8 +10,8 @@ import (
 	"encoding/binary"
 	"testing"
 
-	soctesting "github.com/ethersphere/bee/v2/pkg/soc/testing"
-	mockstorer "github.com/ethersphere/bee/v2/pkg/storer/mock"
+	soctesting "github.com/calmw/bee-tron/pkg/soc/testing"
+	mockstorer "github.com/calmw/bee-tron/pkg/storer/mock"
 )
 
 func TestGetWrappedChunk(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethersphere/bee/v2/pkg/crypto"
+	"github.com/calmw/bee-tron/pkg/crypto"
 )
 
 var (

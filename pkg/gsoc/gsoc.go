@@ -7,9 +7,9 @@ package gsoc
 import (
 	"sync"
 
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/soc"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/soc"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 // Handler defines code to be executed upon reception of a GSOC sub message.

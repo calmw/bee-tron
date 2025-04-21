@@ -8,8 +8,8 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/ethersphere/bee/v2/pkg/file/redundancy"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/file/redundancy"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 var (

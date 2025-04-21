@@ -12,15 +12,15 @@ import (
 	"math/big"
 	"time"
 
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/p2p"
+	"github.com/calmw/bee-tron/pkg/p2p/protobuf"
+	"github.com/calmw/bee-tron/pkg/settlement/swap/chequebook"
+	swap "github.com/calmw/bee-tron/pkg/settlement/swap/headers"
+	"github.com/calmw/bee-tron/pkg/settlement/swap/priceoracle"
+	"github.com/calmw/bee-tron/pkg/settlement/swap/swapprotocol/pb"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/p2p"
-	"github.com/ethersphere/bee/v2/pkg/p2p/protobuf"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/chequebook"
-	swap "github.com/ethersphere/bee/v2/pkg/settlement/swap/headers"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/priceoracle"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/swapprotocol/pb"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
 )
 
 // loggerName is the tree path name of the logger for this package.

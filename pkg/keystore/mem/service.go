@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethersphere/bee/v2/pkg/keystore"
+	"github.com/calmw/bee-tron/pkg/keystore"
 )
 
 var _ keystore.Service = (*Service)(nil)

@@ -19,7 +19,7 @@ package shed
 import (
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/util/testutil"
+	"github.com/calmw/bee-tron/pkg/util/testutil"
 )
 
 // TestNewDB constructs a new DB

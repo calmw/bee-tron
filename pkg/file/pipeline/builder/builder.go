@@ -10,16 +10,16 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ethersphere/bee/v2/pkg/encryption"
-	"github.com/ethersphere/bee/v2/pkg/file/pipeline"
-	"github.com/ethersphere/bee/v2/pkg/file/pipeline/bmt"
-	enc "github.com/ethersphere/bee/v2/pkg/file/pipeline/encryption"
-	"github.com/ethersphere/bee/v2/pkg/file/pipeline/feeder"
-	"github.com/ethersphere/bee/v2/pkg/file/pipeline/hashtrie"
-	"github.com/ethersphere/bee/v2/pkg/file/pipeline/store"
-	"github.com/ethersphere/bee/v2/pkg/file/redundancy"
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/encryption"
+	"github.com/calmw/bee-tron/pkg/file/pipeline"
+	"github.com/calmw/bee-tron/pkg/file/pipeline/bmt"
+	enc "github.com/calmw/bee-tron/pkg/file/pipeline/encryption"
+	"github.com/calmw/bee-tron/pkg/file/pipeline/feeder"
+	"github.com/calmw/bee-tron/pkg/file/pipeline/hashtrie"
+	"github.com/calmw/bee-tron/pkg/file/pipeline/store"
+	"github.com/calmw/bee-tron/pkg/file/redundancy"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 // NewPipelineBuilder returns the appropriate pipeline according to the specified parameters

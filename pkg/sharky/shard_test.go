@@ -8,7 +8,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/sharky"
+	"github.com/calmw/bee-tron/pkg/sharky"
 )
 
 func TestLocationSerialization(t *testing.T) {

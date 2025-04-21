@@ -9,8 +9,8 @@ import (
 	"errors"
 	"math/big"
 
+	"github.com/calmw/bee-tron/pkg/settlement/swap/erc20"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/erc20"
 )
 
 type Service struct {

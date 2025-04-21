@@ -8,10 +8,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/transaction"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/upload"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/storer/internal/transaction"
+	"github.com/calmw/bee-tron/pkg/storer/internal/upload"
 )
 
 // step_05 is a migration step that removes all upload items from the store.

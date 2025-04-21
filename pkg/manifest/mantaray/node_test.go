@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/manifest/mantaray"
+	"github.com/calmw/bee-tron/pkg/manifest/mantaray"
 )
 
 func TestNilPath(t *testing.T) {

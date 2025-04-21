@@ -10,10 +10,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/resolver"
-	"github.com/ethersphere/bee/v2/pkg/resolver/cidv1"
-	"github.com/ethersphere/bee/v2/pkg/resolver/client/ens"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/resolver"
+	"github.com/calmw/bee-tron/pkg/resolver/cidv1"
+	"github.com/calmw/bee-tron/pkg/resolver/client/ens"
 	"github.com/hashicorp/go-multierror"
 )
 

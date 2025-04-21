@@ -11,14 +11,14 @@ import (
 	"math"
 	"testing"
 
-	storage "github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/transaction"
+	storage "github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/storer/internal/transaction"
 
-	storagetest "github.com/ethersphere/bee/v2/pkg/storage/storagetest"
-	chunktest "github.com/ethersphere/bee/v2/pkg/storage/testing"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal"
-	pinstore "github.com/ethersphere/bee/v2/pkg/storer/internal/pinning"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	storagetest "github.com/calmw/bee-tron/pkg/storage/storagetest"
+	chunktest "github.com/calmw/bee-tron/pkg/storage/testing"
+	"github.com/calmw/bee-tron/pkg/storer/internal"
+	pinstore "github.com/calmw/bee-tron/pkg/storer/internal/pinning"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 type pinningCollection struct {

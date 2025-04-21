@@ -5,7 +5,7 @@
 package cache
 
 import (
-	m "github.com/ethersphere/bee/v2/pkg/metrics"
+	m "github.com/calmw/bee-tron/pkg/metrics"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

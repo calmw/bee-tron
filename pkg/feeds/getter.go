@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/soc"
-	storage "github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/soc"
+	storage "github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 var errNotLegacyPayload = errors.New("feed update is not in the legacy payload structure")

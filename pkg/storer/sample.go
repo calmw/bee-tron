@@ -17,14 +17,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/bmt"
-	"github.com/ethersphere/bee/v2/pkg/cac"
-	"github.com/ethersphere/bee/v2/pkg/postage"
-	"github.com/ethersphere/bee/v2/pkg/soc"
-	chunk "github.com/ethersphere/bee/v2/pkg/storage/testing"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/chunkstamp"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/reserve"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/bmt"
+	"github.com/calmw/bee-tron/pkg/cac"
+	"github.com/calmw/bee-tron/pkg/postage"
+	"github.com/calmw/bee-tron/pkg/soc"
+	chunk "github.com/calmw/bee-tron/pkg/storage/testing"
+	"github.com/calmw/bee-tron/pkg/storer/internal/chunkstamp"
+	"github.com/calmw/bee-tron/pkg/storer/internal/reserve"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"golang.org/x/sync/errgroup"
 )
 

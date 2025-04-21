@@ -12,8 +12,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/bmt"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/bmt"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 func TestProofCorrectness(t *testing.T) {

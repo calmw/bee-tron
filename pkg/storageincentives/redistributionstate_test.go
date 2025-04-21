@@ -10,12 +10,12 @@ import (
 	"math/rand"
 	"testing"
 
+	erc20mock "github.com/calmw/bee-tron/pkg/settlement/swap/erc20/mock"
+	"github.com/calmw/bee-tron/pkg/statestore/mock"
+	"github.com/calmw/bee-tron/pkg/swarm"
+	transactionmock "github.com/calmw/bee-tron/pkg/transaction/mock"
+	"github.com/calmw/bee-tron/pkg/util/testutil"
 	"github.com/ethereum/go-ethereum/common"
-	erc20mock "github.com/ethersphere/bee/v2/pkg/settlement/swap/erc20/mock"
-	"github.com/ethersphere/bee/v2/pkg/statestore/mock"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
-	transactionmock "github.com/ethersphere/bee/v2/pkg/transaction/mock"
-	"github.com/ethersphere/bee/v2/pkg/util/testutil"
 	"github.com/google/go-cmp/cmp"
 )
 

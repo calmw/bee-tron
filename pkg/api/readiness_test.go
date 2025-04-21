@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/api"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp/jsonhttptest"
+	"github.com/calmw/bee-tron/pkg/api"
+	"github.com/calmw/bee-tron/pkg/jsonhttp/jsonhttptest"
 )
 
 func TestReadiness(t *testing.T) {

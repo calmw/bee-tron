@@ -13,17 +13,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/api"
-	"github.com/ethersphere/bee/v2/pkg/crypto"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp/jsonhttptest"
-	"github.com/ethersphere/bee/v2/pkg/postage"
-	mockbatchstore "github.com/ethersphere/bee/v2/pkg/postage/batchstore/mock"
-	testingpostage "github.com/ethersphere/bee/v2/pkg/postage/testing"
-	testingsoc "github.com/ethersphere/bee/v2/pkg/soc/testing"
-	"github.com/ethersphere/bee/v2/pkg/spinlock"
-	mockstorer "github.com/ethersphere/bee/v2/pkg/storer/mock"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/api"
+	"github.com/calmw/bee-tron/pkg/crypto"
+	"github.com/calmw/bee-tron/pkg/jsonhttp"
+	"github.com/calmw/bee-tron/pkg/jsonhttp/jsonhttptest"
+	"github.com/calmw/bee-tron/pkg/postage"
+	mockbatchstore "github.com/calmw/bee-tron/pkg/postage/batchstore/mock"
+	testingpostage "github.com/calmw/bee-tron/pkg/postage/testing"
+	testingsoc "github.com/calmw/bee-tron/pkg/soc/testing"
+	"github.com/calmw/bee-tron/pkg/spinlock"
+	mockstorer "github.com/calmw/bee-tron/pkg/storer/mock"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 // nolint:paralleltest

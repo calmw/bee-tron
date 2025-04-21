@@ -13,10 +13,10 @@ import (
 	"io"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/accesscontrol"
-	"github.com/ethersphere/bee/v2/pkg/accesscontrol/mock"
-	"github.com/ethersphere/bee/v2/pkg/crypto"
-	memkeystore "github.com/ethersphere/bee/v2/pkg/keystore/mem"
+	"github.com/calmw/bee-tron/pkg/accesscontrol"
+	"github.com/calmw/bee-tron/pkg/accesscontrol/mock"
+	"github.com/calmw/bee-tron/pkg/crypto"
+	memkeystore "github.com/calmw/bee-tron/pkg/keystore/mem"
 	"github.com/stretchr/testify/assert"
 )
 

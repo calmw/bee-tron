@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	storage "github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	storage "github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/vmihailenco/msgpack/v5"
 )
 

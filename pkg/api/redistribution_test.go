@@ -10,14 +10,14 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/calmw/bee-tron/pkg/api"
+	"github.com/calmw/bee-tron/pkg/jsonhttp"
+	"github.com/calmw/bee-tron/pkg/jsonhttp/jsonhttptest"
+	statestore "github.com/calmw/bee-tron/pkg/statestore/mock"
+	"github.com/calmw/bee-tron/pkg/storageincentives"
+	"github.com/calmw/bee-tron/pkg/transaction/backendmock"
+	"github.com/calmw/bee-tron/pkg/transaction/mock"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/api"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp/jsonhttptest"
-	statestore "github.com/ethersphere/bee/v2/pkg/statestore/mock"
-	"github.com/ethersphere/bee/v2/pkg/storageincentives"
-	"github.com/ethersphere/bee/v2/pkg/transaction/backendmock"
-	"github.com/ethersphere/bee/v2/pkg/transaction/mock"
 )
 
 func TestRedistributionStatus(t *testing.T) {

@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/calmw/bee-tron/pkg/transaction"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethersphere/bee/v2/pkg/transaction"
 )
 
 type transactionServiceMock struct {

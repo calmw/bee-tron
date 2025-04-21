@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/p2p"
-	"github.com/ethersphere/bee/v2/pkg/p2p/libp2p"
-	"github.com/ethersphere/bee/v2/pkg/tracing"
+	"github.com/calmw/bee-tron/pkg/p2p"
+	"github.com/calmw/bee-tron/pkg/p2p/libp2p"
+	"github.com/calmw/bee-tron/pkg/tracing"
 )
 
 func TestTracing(t *testing.T) {

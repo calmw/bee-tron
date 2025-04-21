@@ -12,14 +12,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/cmd/bee/cmd"
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/postage"
-	storagetest "github.com/ethersphere/bee/v2/pkg/storage/testing"
-	"github.com/ethersphere/bee/v2/pkg/storer"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
-	kademlia "github.com/ethersphere/bee/v2/pkg/topology/mock"
-	"github.com/ethersphere/bee/v2/pkg/util/testutil"
+	"github.com/calmw/bee-tron/cmd/bee/cmd"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/postage"
+	storagetest "github.com/calmw/bee-tron/pkg/storage/testing"
+	"github.com/calmw/bee-tron/pkg/storer"
+	"github.com/calmw/bee-tron/pkg/swarm"
+	kademlia "github.com/calmw/bee-tron/pkg/topology/mock"
+	"github.com/calmw/bee-tron/pkg/util/testutil"
 )
 
 func TestDBExportImport(t *testing.T) {

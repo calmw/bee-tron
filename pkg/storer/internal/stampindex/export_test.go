@@ -4,7 +4,7 @@
 
 package stampindex
 
-import "github.com/ethersphere/bee/v2/pkg/swarm"
+import "github.com/calmw/bee-tron/pkg/swarm"
 
 var (
 	ErrStampItemMarshalNamespaceInvalid  = errStampItemMarshalScopeInvalid

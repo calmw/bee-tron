@@ -14,9 +14,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/calmw/bee-tron/pkg/pss"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/pss"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
 	"github.com/hashicorp/go-multierror"
 	"github.com/multiformats/go-multiaddr"
 )

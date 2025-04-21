@@ -9,8 +9,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/ethersphere/bee/v2/pkg/bmtpool"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/bmtpool"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 var (

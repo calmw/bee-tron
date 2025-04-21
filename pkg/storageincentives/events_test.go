@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/storageincentives"
+	"github.com/calmw/bee-tron/pkg/storageincentives"
 )
 
 func TestClose(t *testing.T) {

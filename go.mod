@@ -1,4 +1,4 @@
-module github.com/ethersphere/bee/v2
+module github.com/calmw/bee-tron
 
 go 1.23
 

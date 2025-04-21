@@ -10,16 +10,16 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/postage"
-	"github.com/ethersphere/bee/v2/pkg/postage/batchstore"
-	mockpost "github.com/ethersphere/bee/v2/pkg/postage/mock"
-	postagetest "github.com/ethersphere/bee/v2/pkg/postage/testing"
-	"github.com/ethersphere/bee/v2/pkg/statestore/leveldb"
-	"github.com/ethersphere/bee/v2/pkg/statestore/mock"
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
-	"github.com/ethersphere/bee/v2/pkg/util/testutil"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/postage"
+	"github.com/calmw/bee-tron/pkg/postage/batchstore"
+	mockpost "github.com/calmw/bee-tron/pkg/postage/mock"
+	postagetest "github.com/calmw/bee-tron/pkg/postage/testing"
+	"github.com/calmw/bee-tron/pkg/statestore/leveldb"
+	"github.com/calmw/bee-tron/pkg/statestore/mock"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/util/testutil"
 )
 
 var noopEvictFn = func([]byte) error { return nil }

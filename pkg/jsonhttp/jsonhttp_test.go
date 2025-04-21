@@ -13,7 +13,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp"
+	"github.com/calmw/bee-tron/pkg/jsonhttp"
 )
 
 func TestRespond_defaults(t *testing.T) {

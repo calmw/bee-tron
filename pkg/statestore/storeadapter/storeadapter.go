@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/storage/migration"
-	"github.com/ethersphere/bee/v2/pkg/storage/storageutil"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/storage/migration"
+	"github.com/calmw/bee-tron/pkg/storage/storageutil"
 )
 
 // stateStoreNamespace is the namespace used for state storage.

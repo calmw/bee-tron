@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/ratelimit"
+	"github.com/calmw/bee-tron/pkg/ratelimit"
 )
 
 func TestRateLimit(t *testing.T) {

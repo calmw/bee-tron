@@ -7,10 +7,10 @@ package cache_test
 import (
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/storage/cache"
-	"github.com/ethersphere/bee/v2/pkg/storage/leveldbstore"
-	"github.com/ethersphere/bee/v2/pkg/storage/storagetest"
-	"github.com/ethersphere/bee/v2/pkg/util/testutil"
+	"github.com/calmw/bee-tron/pkg/storage/cache"
+	"github.com/calmw/bee-tron/pkg/storage/leveldbstore"
+	"github.com/calmw/bee-tron/pkg/storage/storagetest"
+	"github.com/calmw/bee-tron/pkg/util/testutil"
 )
 
 func TestCache(t *testing.T) {

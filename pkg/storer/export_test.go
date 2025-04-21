@@ -5,8 +5,8 @@
 package storer
 
 import (
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/events"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/reserve"
+	"github.com/calmw/bee-tron/pkg/storer/internal/events"
+	"github.com/calmw/bee-tron/pkg/storer/internal/reserve"
 )
 
 func (db *DB) Reserve() *reserve.Reserve {

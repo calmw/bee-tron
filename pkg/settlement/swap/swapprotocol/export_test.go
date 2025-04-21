@@ -6,7 +6,7 @@ package swapprotocol
 
 import (
 	"context"
-	"github.com/ethersphere/bee/v2/pkg/p2p"
+	"github.com/calmw/bee-tron/pkg/p2p"
 )
 
 func (s *Service) Init(ctx context.Context, p p2p.Peer) error {

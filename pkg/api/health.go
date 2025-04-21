@@ -7,8 +7,8 @@ package api
 import (
 	"net/http"
 
-	"github.com/ethersphere/bee/v2"
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp"
+	"github.com/calmw/bee-tron"
+	"github.com/calmw/bee-tron/pkg/jsonhttp"
 )
 
 type healthStatusResponse struct {

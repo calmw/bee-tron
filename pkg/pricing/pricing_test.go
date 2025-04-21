@@ -11,13 +11,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/p2p"
-	"github.com/ethersphere/bee/v2/pkg/p2p/protobuf"
-	"github.com/ethersphere/bee/v2/pkg/p2p/streamtest"
-	"github.com/ethersphere/bee/v2/pkg/pricing"
-	"github.com/ethersphere/bee/v2/pkg/pricing/pb"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/p2p"
+	"github.com/calmw/bee-tron/pkg/p2p/protobuf"
+	"github.com/calmw/bee-tron/pkg/p2p/streamtest"
+	"github.com/calmw/bee-tron/pkg/pricing"
+	"github.com/calmw/bee-tron/pkg/pricing/pb"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 type testThresholdObserver struct {

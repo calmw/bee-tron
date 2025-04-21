@@ -4,7 +4,7 @@
 
 package chunkstamp
 
-import "github.com/ethersphere/bee/v2/pkg/swarm"
+import "github.com/calmw/bee-tron/pkg/swarm"
 
 func (i *Item) WithNamespace(ns string) *Item {
 	i.scope = []byte(ns)

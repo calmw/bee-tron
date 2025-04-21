@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethersphere/bee/v2/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/storage"
 )
 
 var _ storage.StateStorer = (*store)(nil)

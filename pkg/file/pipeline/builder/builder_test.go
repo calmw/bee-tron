@@ -12,11 +12,11 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/file/pipeline/builder"
-	test "github.com/ethersphere/bee/v2/pkg/file/testing"
-	"github.com/ethersphere/bee/v2/pkg/storage/inmemchunkstore"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
-	"github.com/ethersphere/bee/v2/pkg/util/testutil"
+	"github.com/calmw/bee-tron/pkg/file/pipeline/builder"
+	test "github.com/calmw/bee-tron/pkg/file/testing"
+	"github.com/calmw/bee-tron/pkg/storage/inmemchunkstore"
+	"github.com/calmw/bee-tron/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/util/testutil"
 )
 
 func TestPartialWrites(t *testing.T) {

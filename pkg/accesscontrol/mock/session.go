@@ -7,8 +7,8 @@ package mock
 import (
 	"crypto/ecdsa"
 
-	"github.com/ethersphere/bee/v2/pkg/crypto"
-	"github.com/ethersphere/bee/v2/pkg/keystore"
+	"github.com/calmw/bee-tron/pkg/crypto"
+	"github.com/calmw/bee-tron/pkg/keystore"
 )
 
 type SessionMock struct {

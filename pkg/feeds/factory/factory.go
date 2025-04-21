@@ -5,10 +5,10 @@
 package factory
 
 import (
-	"github.com/ethersphere/bee/v2/pkg/feeds"
-	"github.com/ethersphere/bee/v2/pkg/feeds/epochs"
-	"github.com/ethersphere/bee/v2/pkg/feeds/sequence"
-	storage "github.com/ethersphere/bee/v2/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/feeds"
+	"github.com/calmw/bee-tron/pkg/feeds/epochs"
+	"github.com/calmw/bee-tron/pkg/feeds/sequence"
+	storage "github.com/calmw/bee-tron/pkg/storage"
 )
 
 type factory struct {

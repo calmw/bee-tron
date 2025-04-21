@@ -26,11 +26,11 @@ import (
 	"fmt"
 	"time"
 
-	m "github.com/ethersphere/bee/v2/pkg/metrics"
-	"github.com/ethersphere/bee/v2/pkg/sharky"
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/chunkstore"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	m "github.com/calmw/bee-tron/pkg/metrics"
+	"github.com/calmw/bee-tron/pkg/sharky"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/storer/internal/chunkstore"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/prometheus/client_golang/prometheus"
 	"resenje.org/multex"
 )

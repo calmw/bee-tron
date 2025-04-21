@@ -7,7 +7,7 @@ package api_test
 import (
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/api"
+	"github.com/calmw/bee-tron/pkg/api"
 )
 
 func TestToFileSizeBucket(t *testing.T) {

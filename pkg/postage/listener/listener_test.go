@@ -13,16 +13,16 @@ import (
 	"testing"
 	"time"
 
+	chaincfg "github.com/calmw/bee-tron/pkg/config"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/postage"
+	"github.com/calmw/bee-tron/pkg/postage/listener"
+	"github.com/calmw/bee-tron/pkg/util/abiutil"
+	"github.com/calmw/bee-tron/pkg/util/syncutil"
+	"github.com/calmw/bee-tron/pkg/util/testutil"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	chaincfg "github.com/ethersphere/bee/v2/pkg/config"
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/postage"
-	"github.com/ethersphere/bee/v2/pkg/postage/listener"
-	"github.com/ethersphere/bee/v2/pkg/util/abiutil"
-	"github.com/ethersphere/bee/v2/pkg/util/syncutil"
-	"github.com/ethersphere/bee/v2/pkg/util/testutil"
 )
 
 var (

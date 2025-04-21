@@ -7,11 +7,11 @@ package migration
 import (
 	"context"
 
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/sharky"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/chunkstore"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/transaction"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/sharky"
+	"github.com/calmw/bee-tron/pkg/storer/internal/chunkstore"
+	"github.com/calmw/bee-tron/pkg/storer/internal/transaction"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 // step_04 is the fourth step of the migration. It forces a sharky recovery to

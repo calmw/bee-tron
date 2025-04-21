@@ -9,10 +9,10 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/calmw/bee-tron/pkg/settlement/swap/erc20"
+	transactionmock "github.com/calmw/bee-tron/pkg/transaction/mock"
+	"github.com/calmw/bee-tron/pkg/util/abiutil"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/erc20"
-	transactionmock "github.com/ethersphere/bee/v2/pkg/transaction/mock"
-	"github.com/ethersphere/bee/v2/pkg/util/abiutil"
 	"github.com/ethersphere/go-sw3-abi/sw3abi"
 )
 

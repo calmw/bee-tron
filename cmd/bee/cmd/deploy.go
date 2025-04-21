@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethersphere/bee/v2/pkg/node"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/erc20"
+	"github.com/calmw/bee-tron/pkg/node"
+	"github.com/calmw/bee-tron/pkg/settlement/swap/erc20"
 	"github.com/spf13/cobra"
 )
 

@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 // simpleReadCloser wraps a byte slice in a io.ReadCloser implementation.

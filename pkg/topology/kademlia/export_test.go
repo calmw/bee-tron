@@ -5,9 +5,9 @@
 package kademlia
 
 import (
-	"github.com/ethersphere/bee/v2/pkg/swarm"
-	"github.com/ethersphere/bee/v2/pkg/topology"
-	"github.com/ethersphere/bee/v2/pkg/topology/pslice"
+	"github.com/calmw/bee-tron/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/topology"
+	"github.com/calmw/bee-tron/pkg/topology/pslice"
 )
 
 var (

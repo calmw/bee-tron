@@ -14,14 +14,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/file/pipeline/builder"
-	"github.com/ethersphere/bee/v2/pkg/file/redundancy"
-	postagetesting "github.com/ethersphere/bee/v2/pkg/postage/mock"
-	"github.com/ethersphere/bee/v2/pkg/steward"
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/storage/inmemchunkstore"
-	mockstorer "github.com/ethersphere/bee/v2/pkg/storer/mock"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/file/pipeline/builder"
+	"github.com/calmw/bee-tron/pkg/file/redundancy"
+	postagetesting "github.com/calmw/bee-tron/pkg/postage/mock"
+	"github.com/calmw/bee-tron/pkg/steward"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/storage/inmemchunkstore"
+	mockstorer "github.com/calmw/bee-tron/pkg/storer/mock"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 type counter struct {

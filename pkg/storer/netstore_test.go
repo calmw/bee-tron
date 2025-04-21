@@ -11,12 +11,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/pushsync"
-	"github.com/ethersphere/bee/v2/pkg/retrieval"
-	storage "github.com/ethersphere/bee/v2/pkg/storage"
-	chunktesting "github.com/ethersphere/bee/v2/pkg/storage/testing"
-	storer "github.com/ethersphere/bee/v2/pkg/storer"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/pushsync"
+	"github.com/calmw/bee-tron/pkg/retrieval"
+	storage "github.com/calmw/bee-tron/pkg/storage"
+	chunktesting "github.com/calmw/bee-tron/pkg/storage/testing"
+	storer "github.com/calmw/bee-tron/pkg/storer"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 type testRetrieval struct {

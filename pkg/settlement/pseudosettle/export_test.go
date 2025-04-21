@@ -8,7 +8,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/p2p"
+	"github.com/calmw/bee-tron/pkg/p2p"
 )
 
 func (s *Service) SetTimeNow(f func() time.Time) {

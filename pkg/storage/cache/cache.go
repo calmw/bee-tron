@@ -5,8 +5,8 @@
 package cache
 
 import (
-	"github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/storage/storageutil"
+	"github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/storage/storageutil"
 	lru "github.com/hashicorp/golang-lru/v2"
 )
 

@@ -8,7 +8,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/postage"
+	"github.com/calmw/bee-tron/pkg/postage"
 )
 
 // NewChainState will create a new ChainState with random values.

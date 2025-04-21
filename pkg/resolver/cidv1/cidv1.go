@@ -7,8 +7,8 @@ package cidv1
 import (
 	"fmt"
 
-	"github.com/ethersphere/bee/v2/pkg/resolver"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/resolver"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/ipfs/go-cid"
 	"github.com/multiformats/go-multihash"
 )

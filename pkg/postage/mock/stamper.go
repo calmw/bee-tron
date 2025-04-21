@@ -5,8 +5,8 @@
 package mock
 
 import (
-	"github.com/ethersphere/bee/v2/pkg/postage"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/postage"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 type mockStamper struct{}

@@ -13,10 +13,10 @@ import (
 	"io"
 	"time"
 
-	"github.com/ethersphere/bee/v2/pkg/accesscontrol/kvs"
-	"github.com/ethersphere/bee/v2/pkg/encryption"
-	"github.com/ethersphere/bee/v2/pkg/file"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/accesscontrol/kvs"
+	"github.com/calmw/bee-tron/pkg/encryption"
+	"github.com/calmw/bee-tron/pkg/file"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 // Grantees represents an interface for managing and retrieving grantees for a publisher.

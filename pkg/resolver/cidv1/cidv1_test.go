@@ -8,9 +8,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/resolver"
-	"github.com/ethersphere/bee/v2/pkg/resolver/cidv1"
-	"github.com/ethersphere/bee/v2/pkg/util/testutil"
+	"github.com/calmw/bee-tron/pkg/resolver"
+	"github.com/calmw/bee-tron/pkg/resolver/cidv1"
+	"github.com/calmw/bee-tron/pkg/util/testutil"
 )
 
 func TestCIDResolver(t *testing.T) {

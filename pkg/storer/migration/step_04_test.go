@@ -11,14 +11,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/log"
-	"github.com/ethersphere/bee/v2/pkg/sharky"
-	"github.com/ethersphere/bee/v2/pkg/storage/inmemstore"
-	chunktest "github.com/ethersphere/bee/v2/pkg/storage/testing"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/chunkstore"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/transaction"
-	localmigration "github.com/ethersphere/bee/v2/pkg/storer/migration"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/log"
+	"github.com/calmw/bee-tron/pkg/sharky"
+	"github.com/calmw/bee-tron/pkg/storage/inmemstore"
+	chunktest "github.com/calmw/bee-tron/pkg/storage/testing"
+	"github.com/calmw/bee-tron/pkg/storer/internal/chunkstore"
+	"github.com/calmw/bee-tron/pkg/storer/internal/transaction"
+	localmigration "github.com/calmw/bee-tron/pkg/storer/migration"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/stretchr/testify/assert"
 )
 

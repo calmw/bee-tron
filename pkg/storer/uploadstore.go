@@ -10,12 +10,12 @@ import (
 	"fmt"
 	"sort"
 
-	storage "github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal"
-	pinstore "github.com/ethersphere/bee/v2/pkg/storer/internal/pinning"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/transaction"
-	"github.com/ethersphere/bee/v2/pkg/storer/internal/upload"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	storage "github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/storer/internal"
+	pinstore "github.com/calmw/bee-tron/pkg/storer/internal/pinning"
+	"github.com/calmw/bee-tron/pkg/storer/internal/transaction"
+	"github.com/calmw/bee-tron/pkg/storer/internal/upload"
+	"github.com/calmw/bee-tron/pkg/swarm"
 )
 
 const uploadsLock = "pin-upload-store"

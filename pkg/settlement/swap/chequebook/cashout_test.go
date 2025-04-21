@@ -9,14 +9,14 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/calmw/bee-tron/pkg/settlement/swap/chequebook"
+	chequestoremock "github.com/calmw/bee-tron/pkg/settlement/swap/chequestore/mock"
+	storemock "github.com/calmw/bee-tron/pkg/statestore/mock"
+	"github.com/calmw/bee-tron/pkg/transaction/backendmock"
+	transactionmock "github.com/calmw/bee-tron/pkg/transaction/mock"
+	"github.com/calmw/bee-tron/pkg/util/abiutil"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethersphere/bee/v2/pkg/settlement/swap/chequebook"
-	chequestoremock "github.com/ethersphere/bee/v2/pkg/settlement/swap/chequestore/mock"
-	storemock "github.com/ethersphere/bee/v2/pkg/statestore/mock"
-	"github.com/ethersphere/bee/v2/pkg/transaction/backendmock"
-	transactionmock "github.com/ethersphere/bee/v2/pkg/transaction/mock"
-	"github.com/ethersphere/bee/v2/pkg/util/abiutil"
 	"github.com/ethersphere/go-sw3-abi/sw3abi"
 )
 

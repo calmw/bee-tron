@@ -8,9 +8,9 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/ethersphere/bee/v2/pkg/jsonhttp"
-	"github.com/ethersphere/bee/v2/pkg/p2p"
-	"github.com/ethersphere/bee/v2/pkg/swarm"
+	"github.com/calmw/bee-tron/pkg/jsonhttp"
+	"github.com/calmw/bee-tron/pkg/p2p"
+	"github.com/calmw/bee-tron/pkg/swarm"
 	"github.com/gorilla/mux"
 	"github.com/multiformats/go-multiaddr"
 )

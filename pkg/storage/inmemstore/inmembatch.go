@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"sync"
 
-	storage "github.com/ethersphere/bee/v2/pkg/storage"
+	storage "github.com/calmw/bee-tron/pkg/storage"
 )
 
 // batchOp represents a batch operations.

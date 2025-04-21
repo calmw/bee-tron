@@ -9,7 +9,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/encryption/mock"
+	"github.com/calmw/bee-tron/pkg/encryption/mock"
 )
 
 var errTest = errors.New("test error")

@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	m "github.com/ethersphere/bee/v2/pkg/metrics"
+	m "github.com/calmw/bee-tron/pkg/metrics"
 	"github.com/hashicorp/go-multierror"
 	"github.com/prometheus/client_golang/prometheus"
 )

@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"sort"
 
-	storage "github.com/ethersphere/bee/v2/pkg/storage"
-	"github.com/ethersphere/bee/v2/pkg/storage/storageutil"
+	storage "github.com/calmw/bee-tron/pkg/storage"
+	"github.com/calmw/bee-tron/pkg/storage/storageutil"
 )
 
 type (

@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ethersphere/bee/v2/pkg/manifest/mantaray"
+	"github.com/calmw/bee-tron/pkg/manifest/mantaray"
 )
 
 func TestWalkNode(t *testing.T) {
